@@ -25,5 +25,7 @@ in your source code, you'll need
 #include "alc.h" 
 #include "alut.h"
 
+In General -> Character Set put Use Multi-Byte Character Set
+In Linker -> System -> SubSystem put Console (/SUBSYSTEM:CONSOLE)
 
-Application: Debug - Win32
+Application: Release - Win32
