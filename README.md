@@ -13,7 +13,7 @@ C++ -> General -> Additional Include Directories
 -- add  C:\Program Files\OpenAL 1.1 SDK\libs\Win32
    to Linker -> General -> Additional Library Directories
 
--- add  OpenAL32.lib ALut.lib at the end  to 
+-- add  ;OpenAL32.li;ALut.lib at the end  to 
    Linker -> Input -> Additional Dependencies 
 
 in your source code, you'll need 
