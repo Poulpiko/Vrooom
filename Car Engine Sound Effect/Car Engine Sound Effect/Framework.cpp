@@ -333,7 +333,7 @@ void pyRPM() {
 
 	const int argc = 3;
 	char* argv[3];
-	argv[0] = "ConsoleApplication1.exe";
+	argv[0] = "Car Engine Sound Effect.exe";
 	argv[1] = "script";
 	argv[2] = "rpm";
 
