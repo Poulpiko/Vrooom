@@ -6,8 +6,8 @@
 int main()
 {
 	//Capture();
-	//std::thread t1(pyRPM);
-	std::thread t1(createRPM);
+	std::thread t1(pyRPM);
+	//std::thread t1(createRPM);
 	std::thread t2(PlayStatic);
 	
 	t2.join();
